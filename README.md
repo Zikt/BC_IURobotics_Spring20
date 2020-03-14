@@ -1,4 +1,4 @@
-#**BC_IURobotics_Spring20**
+#BC_IURobotics_Spring20
 
 Assignments and Labs for Behavioral & Cognitive Robotics Course in Innopolis University for Spring Semester 2020
 
