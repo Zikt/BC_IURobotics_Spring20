@@ -40,10 +40,12 @@ b2 = np.zeros(shape=(noutputs, 1))   # bias second layer
 
 #######Loop here
 sum_reward=0
-for i_episode in range(10):
-    observation = env.reset()
+e,s = 10,200 #No of episodes and steps
+
+for i_episode in range(e):
+    observation = env.reset() #This resets env at every step
     
-    for t in range(200):
+    for t in range(s):
         # observation = env.reset()
         env.render()
         #print(observation)
@@ -65,7 +67,9 @@ for i_episode in range(10):
             action = A2
         else:
             action = np.argmax(A2)
-print(sum_reward)
+print("Reward for ", e ,
+      "episodes each with ", s,
+      "steps is ", sum_reward)
 
         
 env.close()
