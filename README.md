@@ -8,6 +8,8 @@ The guide, instructions for this course and other materials can be found in the 
 All the software required is available ready to be used through the docker container docker container prepared by Vladislav Kurenkov that can be pulled, built and run. Check the repository above for further instructions. 
 *Learn more about [Gym](http://gym.openai.com/docs/#background-why-gym-2016)*
 
+[Lecture notes here](https://drive.google.com/drive/folders/1EpsjCB-iDPjrD0LVzeGLXi3nP1JkSx2k)
+
 ---
 
 
@@ -20,7 +22,8 @@ Exercise 2
 ----------
  Implement Evolutionary Hill-Climber with simple Neural Network and train it.
 
-**Ex 2a:** The task is to implement a neural network controller for a Gym problem (the CartPole-v0). I initialized the network with random
+**Ex 2a:** 
+The task is to implement a neural network controller for a Gym problem (the CartPole-v0). I initialized the network with random
 parameters, and evaluated the neuro-agent for 10 evaluation episodes each
 lasting 200 steps and printed the toal sum of rewards. Since the cartPole-v0 problem returns a reward of 1 for each step in which the pole is balanced, the fitness(total reward) corresponds to the total number of steps in which the agent manages to keep the pole balanced. As expected, the agent did not balance the pole for many steps by using a policy with random parameters.
 
